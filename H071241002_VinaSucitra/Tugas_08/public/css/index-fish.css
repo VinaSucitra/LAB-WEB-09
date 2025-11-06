@@ -1,0 +1,133 @@
+
+/* Lapisan transparan lembut di atas background */
+.overlay {
+    background: rgba(0, 20, 40, 0.7);
+    backdrop-filter: blur(10px);
+    min-height: 100vh;
+    padding: 3rem 2rem;
+    border-radius: 25px;
+    box-shadow: 0 0 40px rgba(0, 200, 255, 0.15);
+    margin: 2rem;
+}
+
+h2 {
+    background: linear-gradient(90deg, #00E5FF, #00B8D4, #0097A7);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+/* Tombol utama */
+.btn-blue {
+    background: linear-gradient(90deg, #00B8D4, #007BFF);
+    color: white;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 12px rgba(0, 180, 255, 0.3);
+    border-radius: 15px;
+}
+
+.btn-blue:hover {
+    transform: scale(1.05);
+    background: linear-gradient(90deg, #00E5FF, #0088FF);
+    box-shadow: 0 0 20px rgba(0, 220, 255, 0.5);
+}
+
+/* Tombol filter */
+.btn-filter {
+    background: linear-gradient(90deg, #0044FF, #00C6FF);
+    color: white;
+    transition: all 0.3s ease;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 150, 255, 0.3);
+}
+
+.btn-filter:hover {
+    background: linear-gradient(90deg, #007BFF, #00E5FF);
+    transform: scale(1.05);
+    box-shadow: 0 0 15px rgba(0, 220, 255, 0.5);
+}
+
+select,
+input[type="text"] {
+    background: rgba(0, 50, 80, 0.4);
+    border: 1px solid rgba(0, 200, 255, 0.3);
+    color: #E0F7FA;
+    border-radius: 15px;
+    transition: all 0.3s ease;
+    padding: 0.75rem 1rem;
+}
+
+select:focus,
+input[type="text"]:focus {
+    outline: none;
+    border-color: #00E5FF;
+    box-shadow: 0 0 10px rgba(0, 200, 255, 0.6);
+    background: rgba(0, 80, 120, 0.5);
+}
+
+/* Kontainer tabel */
+.table-container {
+    background: rgba(0, 50, 80, 0.35);
+    border-radius: 25px;
+    border: 1px solid rgba(0, 200, 255, 0.2);
+    box-shadow: 0 0 30px rgba(0, 180, 255, 0.25);
+    backdrop-filter: blur(10px);
+    transition: 0.3s ease;
+    padding: 1.5rem;
+}
+
+.table-container:hover {
+    box-shadow: 0 0 50px rgba(0, 250, 255, 0.3);
+}
+
+thead {
+    color: #4DD0E1;
+    border-bottom: 1px solid rgba(0, 180, 255, 0.3);
+}
+
+tbody tr {
+    border-bottom: 1px solid rgba(0, 100, 150, 0.3);
+    transition: 0.3s ease;
+    border-radius: 15px;
+}
+
+tbody tr:hover {
+    background: rgba(0, 80, 120, 0.3);
+}
+
+/* Tombol aksi */
+.btn-view,
+.btn-edit,
+.btn-delete {
+    border-radius: 10px;
+    transition: all 0.3s ease;
+}
+
+.btn-view {
+    background: linear-gradient(90deg, #00C6FF, #0072FF);
+    color: white;
+}
+
+.btn-view:hover {
+    background: linear-gradient(90deg, #00E5FF, #0099FF);
+    box-shadow: 0 0 10px rgba(0, 220, 255, 0.6);
+}
+
+.btn-edit {
+    background: linear-gradient(90deg, #00BCD4, #0088FF);
+    color: white;
+}
+
+.btn-edit:hover {
+    background: linear-gradient(90deg, #00E5FF, #00B8D4);
+    box-shadow: 0 0 10px rgba(0, 220, 255, 0.6);
+}
+
+.btn-delete {
+    background: linear-gradient(90deg, #007BFF, #00C6FF);
+    color: white;
+}
+
+.btn-delete:hover {
+    background: linear-gradient(90deg, #0099FF, #00E5FF);
+    box-shadow: 0 0 10px rgba(0, 220, 255, 0.6);
+}

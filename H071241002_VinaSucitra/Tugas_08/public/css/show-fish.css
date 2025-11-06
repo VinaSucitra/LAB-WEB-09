@@ -1,0 +1,98 @@
+body {
+    background: linear-gradient(135deg, #001F3F, #003366, #001833);
+    color: #E0F7FA;
+    font-family: 'Poppins', sans-serif;
+}
+
+.fish-card {
+    background: rgba(0, 60, 100, 0.35);
+    border: 1px solid rgba(0, 200, 255, 0.2);
+    border-radius: 25px;
+    box-shadow: 0 0 35px rgba(0, 180, 255, 0.25);
+    backdrop-filter: blur(50px);
+    transition: all 0.3s ease;
+    padding: 2.5rem;
+}
+
+.fish-card:hover {
+    box-shadow: 0 0 55px rgba(0, 220, 255, 0.45);
+    transform: translateY(-4px);
+}
+
+.fish-card h1 {
+    font-size: 2.3rem;
+    font-weight: 800;
+    background: linear-gradient(90deg, #00E5FF, #00B8D4, #0097A7);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+    margin-bottom: 0.5rem;
+}
+
+.subtitle {
+    text-align: center;
+    color: #A7FFEB;
+    font-style: italic;
+    margin-bottom: 2rem;
+    letter-spacing: 0.5px;
+}
+
+.info-label {
+    font-weight: 600;
+    color: #4DD0E1;
+}
+
+.info-value {
+    color: #E0F7FA;
+}
+
+.divider {
+    height: 1px;
+    background: linear-gradient(to right, transparent, rgba(0, 200, 255, 0.5), transparent);
+    margin: 2rem 0;
+}
+
+.btn {
+    font-weight: 600;
+    border-radius: 9999px;
+    padding: 0.6rem 1.5rem;
+    transition: all 0.25s ease;
+    box-shadow: 0 0 15px rgba(0, 180, 255, 0.25);
+}
+
+.btn:hover {
+    transform: scale(1.05);
+}
+
+.btn-edit {
+    background: linear-gradient(90deg, #00E5FF, #00ACC1);
+    color: #fff;
+    box-shadow: 0 0 15px rgba(0, 200, 255, 0.4);
+}
+
+.btn-edit:hover {
+    box-shadow: 0 0 25px rgba(0, 250, 255, 0.6);
+    background: linear-gradient(90deg, #00BCD4, #0097A7);
+}
+
+.btn-delete {
+    background: linear-gradient(90deg, #0072FF, #00C6FF);
+    color: #fff;
+    box-shadow: 0 0 15px rgba(0, 180, 255, 0.4);
+}
+
+.btn-delete:hover {
+    box-shadow: 0 0 25px rgba(0, 220, 255, 0.7);
+    background: linear-gradient(90deg, #0099FF, #00E5FF);
+}
+
+.btn-back {
+    background: linear-gradient(90deg, #0044FF, #00C6FF);
+    color: #fff;
+    box-shadow: 0 0 15px rgba(0, 180, 255, 0.4);
+}
+
+.btn-back:hover {
+    box-shadow: 0 0 25px rgba(0, 250, 255, 0.7);
+    background: linear-gradient(90deg, #007BFF, #00E5FF);
+}
